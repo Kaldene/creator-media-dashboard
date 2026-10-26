@@ -1,0 +1,44 @@
+﻿.env
+.env.*
+
+.venv/
+venv/
+env/
+ENV/
+
+# Папки с загруженными медиафайлами и субтитрами
+# (замените на свои названия папок, если они отличаются)
+download/
+downloads/
+media/
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.srt
+*.vtt
+
+# Локальная база данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Кэш моделей Whisper (если они скачиваются в папку проекта)
+.cache/
+models/
+
+# Настройки IDE (VS Code, JetBrains Rider и др.)
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
